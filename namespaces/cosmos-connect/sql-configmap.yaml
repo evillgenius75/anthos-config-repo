@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: azure-acm-demo
+  annotations:
+    configmanagement.gke.io/cluster-selector: azure
+data:
+  # property-like keys; each key maps to a simple value
+  ui_properties_file_name: "user-interface.properties"
+
+  # file-like keys
+  game.properties: |
+    db.type=sql
+    connections.maximum=50 
+  user-interface.properties: |
+    color.good=purple
+    color.bad=yellow
+    allow.textmode=true
