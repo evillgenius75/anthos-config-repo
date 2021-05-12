@@ -1,8 +1,8 @@
 kind: ClusterSelector
 apiVersion: configmanagement.gke.io/v1
 metadata:
-  name: asm
+  name: azure
 spec:
   selector:
     matchLabels:
-      environment: asm
+      environment: azure
