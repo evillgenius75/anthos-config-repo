@@ -4,3 +4,10 @@ metadata:
   name: anthosaz-east1
   labels:
     environment: azure
+---
+kind: Cluster
+apiVersion: clusterregistry.k8s.io/v1alpha1
+metadata:
+  name: anthosatt-east
+  labels:
+    environment: azure
