@@ -9,7 +9,7 @@ data:
   # file-like keys
   middleware.properties: |
     db.type=mongo
-    connections.maximum=1500   
+    connections.maximum=1000   
   user-interface.properties: |
     color.good=green
     color.bad=red
