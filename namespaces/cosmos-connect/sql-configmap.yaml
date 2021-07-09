@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: azure-acm-demo
   annotations:
-    configmanagement.gke.io/cluster-selector: azure
+    configmanagement.gke.io/cluster-selector: azure-selector
 data:
   # property-like keys; each key maps to a simple value
   ui_properties_file_name: "user-interface.properties"
