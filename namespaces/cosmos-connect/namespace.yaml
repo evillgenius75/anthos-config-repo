@@ -4,4 +4,4 @@ kind: Namespace
 metadata:
   name: cosmos-connect
   annotations:
-    configmanagement.gke.io/cluster-selector: azure
+    configmanagement.gke.io/cluster-selector: azure-selector
