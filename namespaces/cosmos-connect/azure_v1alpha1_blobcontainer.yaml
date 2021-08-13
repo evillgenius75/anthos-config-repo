@@ -1,0 +1,13 @@
+apiVersion: azure.microsoft.com/v1alpha1
+kind: BlobContainer
+metadata:
+  name: blobcontainer-sample
+  annotations:
+    configmanagement.gke.io/cluster-selector: azure-selector
+spec:
+  location: westus
+  resourcegroup: eddiejv-demo
+  accountname: ejvsademo081221
+  # accessLevel - Specifies whether data in the container may be accessed publicly and the level of access.
+  # Possible values include: 'Container', 'Blob', 'None'
+  accesslevel: Container
