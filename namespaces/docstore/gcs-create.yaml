@@ -24,7 +24,9 @@
     # StorageBucket names must be globally unique. Replace ${PROJECT_ID?} with your project ID.
     name: eddiejv-demo-docstorecs
   spec:
-    bucketPolicyOnly: true
+    uniformBucketLevelAccess: true
+    storageClass: REGIONAL
+    location: us-east4
     lifecycleRule:
       - action:
           type: Delete
