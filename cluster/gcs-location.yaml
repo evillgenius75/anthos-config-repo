@@ -1,0 +1,11 @@
+apiVersion: constraints.gatekeeper.sh/v1beta1
+kind: GCPStorageLocationConstraintV1
+metadata:
+  name: gcp-storage-locations
+spec:
+  match:
+    kinds:
+      - apiGroups: ["storage.cnrm.cloud.google.com"]
+        kinds: ["StorageBucket"]
+  parameters:
+    locations: ["us-east4"]
