@@ -1,4 +1,4 @@
-apiVersion: azure.microsoft.com/v1alpha2
+apiVersion: azure.microsoft.com/v1alpha1
 kind: BlobContainer
 metadata:
   name: blobcontainer-sample
