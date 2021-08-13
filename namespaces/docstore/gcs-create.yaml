@@ -18,6 +18,7 @@
     annotations:
       cnrm.cloud.google.com/force-destroy: "false"
       cnrm.cloud.google.com/project-id: eddiejv-demo
+      configmanagement.gke.io/cluster-selector: gke-selector
     labels:
       label-one: "value-one"
     # StorageBucket names must be globally unique. Replace ${PROJECT_ID?} with your project ID.
