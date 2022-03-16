@@ -1,7 +1,0 @@
-# creates namespace named "hello"
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: cosmos-connect
-  annotations:
-    configmanagement.gke.io/cluster-selector: azure-selector
